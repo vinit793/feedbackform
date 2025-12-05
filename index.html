@@ -1,1 +1,40 @@
+<html>
+    <head>
+        <title>Feedback</title>
+    </head>
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
 
+        form {
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        button:hover {
+            background: #45A049;
+        }
+        </style>
+    <body>
+        <h1>Feedback Form</h1>
+        <form>
+            <div></div>
+            <label>Name:</label>
+            <input type="text" required>
+            </div>
+            <div>
+            <label>Email:</label>
+            <input type="email" required>
+            </div>
+            <div>
+            <label>Message:</label>
+            <textarea name="text" id="-" rows="5"></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+
+    </body>
+</html>
